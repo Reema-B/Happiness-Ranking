@@ -27,7 +27,7 @@ SECRET_KEY = 'gwo+7crjcotadocc$zf1^())!h5zg^dxqq$9c1nqf99i1o+2vz'
 DEBUG = False
 
 # Setup for running app locally and on Heroku
-ALLOWED_HOSTS = ['happiness-ranking.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['happiness-rank.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
