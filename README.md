@@ -1,8 +1,6 @@
 ## Happiness-Ranking
 Predicting Happiness Ranking for the countries around the globe.
 
-### Skills : Python, Django, Heroku, Linear Regression
-
 ## What is Happiness Index?
 It's an indexation of happiness based on survey results that was first used in the 2012 World Happiness Report.
 In the survey, the respondents were asked to rate their happiness on a scale of zero to 10. 
@@ -22,3 +20,5 @@ The Project is divided into 3 parts:
 ## Machine Learning Model
 We start off with building a machine learning model using Simple Linear Regression and train that model using the Happiness Index Dataset.
 For this project you will also see StandardScalar in action and why we have implemented it.
+
+### Skills : Python, Django, Heroku, Linear Regression
