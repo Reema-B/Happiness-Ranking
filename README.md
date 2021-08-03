@@ -1,6 +1,8 @@
 # Happiness-Ranking
 Predicting Happiness Ranking for the countries around the globe.
 
+# Skills : Python, Django, Heroku, Linear Regression
+
 # What is Happiness Index?
 It's an indexation of happiness based on survey results that was first used in the 2012 World Happiness Report.
 In the survey, the respondents were asked to rate their happiness on a scale of zero to 10. 
