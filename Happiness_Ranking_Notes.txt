@@ -1,0 +1,41 @@
+Happiness Ranking Django Application
+We are going to predict Happiness Ranking based on columns Happiness Score to Dystopia Residual.
+
+158 rows and 12 columns out of which 1 is the target variable.
+Hence 11 independent variables.
+
+# So how to handle small datasets - we will look at some pointers that can help us in training using small datasets:
+
+# Use simple models - like linear regression or logistic regression as complex models would not analyze over complexity over the data and it wont find some patterns which are only specific to training data.
+
+# Beware the outliers -
+Push all the outliers in a range that is good enough for the column or directly remove all the outliers.
+
+# Select the features -
+Usually real life problems have features from 2k-3k in number
+At the least can be 100-200
+Hence it can be difficult to feed such large number of columns to the   model. Hence try to identigy which of them are actually important to   the model.
+Which of those features are very much related or are having an impact on my target variable.
+
+# Balance the dataset with synthetic samples (SMOTE)
+This requires more statistical and mathemaical accuraty to use some of those methods to generate data rom existing data. So it is about generating data that is close enough to the existing data so that I am able to increase the sie of the dataset. Can read out on this but this is not very good way of handling small datasets, unless you totally understand the methodology that it has and able to use it also. And not just the knowledge of the dataset.
+
+# Combine models for the final submission
+Rather then training one model train three models.
+Take outputs from all the models and look for the majority.
+Example : Suppose there are 3 models with a class true and false.
+The 3 models are giving a result of False, False, True.
+The final submission of 3 models is giving me a False with 66% confidence.
+
+# So we have used Liner Regressio model for this, with most probably using l1 or l2 regularization
+Mostly by default paramter or value for linear regression the l1 regularisation is used. So dont have to specify anything unless you want to use L2.
+
+Intuition behind using standard scaler.
+Happiness score ranges between 3-8 rounded.
+Standard error ranges from 0.018 - 0.13. 
+So these ranges are far apart.
+If ranges are in similar or comparable form we can move forward.
+Hence we are using standardization.
+
+Getting server error 500 both locally and Online through Heroku.
+Need to check this or ask doubts in groups.
