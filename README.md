@@ -1,4 +1,4 @@
-## Happiness-Ranking
+## Happiness-Ranking (Skills : Python, Django, Heroku, Linear Regression)
 Predicting Happiness Ranking for the countries around the globe.
 
 ## What is Happiness Index?
@@ -21,4 +21,4 @@ The Project is divided into 3 parts:
 We start off with building a machine learning model using Simple Linear Regression and train that model using the Happiness Index Dataset.
 For this project you will also see StandardScalar in action and why we have implemented it.
 
-### Skills : Python, Django, Heroku, Linear Regression
+
